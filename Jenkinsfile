@@ -11,7 +11,7 @@ pipeline {
     stage('run') {
       steps {
         script {
-           sh 'docker run app'
+           bat 'docker run app'
         }
       }
     }
